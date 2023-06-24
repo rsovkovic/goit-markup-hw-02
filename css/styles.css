@@ -1,0 +1,190 @@
+.body {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    font-weight: 400,500,700,900;
+    color: var(--navyblue, #2E2F42);
+    line-height: 1.5;
+
+}
+.h1{
+    color: var(--white, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        background: var(--navyblue, #2E2F42);
+}
+.page1-button{
+border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white, #FFF);
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+}
+.page1-button:hover{
+    border-radius: 4px;
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.page1-h2{
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+.section1-page1 .h3{
+    color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.section1-page1 .text-page1{
+    color: var(--slate, #434455);
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.section2-page1 .h3 {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.section2-page1 .text-page1 {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.text-footer{
+    color: var(--cloud, #F4F4FD);
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        background: var(--navyblue, #2E2F42);
+}
+
+.section1-page2 .button{
+    color: var(--iris, #4D5AE5);
+        text-align: center;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+        border-radius: 4px;
+            border: 1px solid var(--cornflower, #E7E9FC);
+            background: var(--cloud, #F4F4FD);
+}
+.section1-page2 .button:hover,.section1 .button:focus{
+color: var(--white, #FFF);
+    text-align: center;
+    border-radius: 4px;
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.section2-page2 .h2-page2{
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.section2-page2 .text-page1 {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.page-nav .link{
+color: var(--navyblue, #2E2F42);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+.page-nav .link:hover,.page-nav .link:focus{
+    color: #4D5AE5;
+}
+
+.address .link-address{
+    color: var(--slate, #434455);
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+
+.address .link-address:hover,.address .link-address:focus {
+    color: #4D5AE5;
+
+}
+.Web{
+color: var(--iris, #4D5AE5);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Studio{
+    color: var(--navyblue, #2E2F42);
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        }
+       
+   .footer .Web {
+       color: var(--iris, #4D5AE5);
+       font-size: 18px;
+       font-family: Raleway;
+       font-weight: 800;
+       line-height: 1.16;
+       letter-spacing: 0.54px;
+       text-transform: uppercase;
+        background: var(--navyblue, #2E2F42);
+   }
+
+   .footer .Studio {
+       color: var(--cloud, #F4F4FD);
+       font-size: 18px;
+       font-family: Raleway;
+       font-weight: 800;
+       line-height: 1.16;
+       letter-spacing: 0.54px;
+       text-transform: uppercase;
+        background: var(--navyblue, #2E2F42);
+
+   }
+   
