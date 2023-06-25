@@ -132,7 +132,7 @@ color: var(--navyblue, #2E2F42);
 }
 
 .address .link-address:hover,.address .link-address:focus {
-    color: #4D5AE5;
+    color: var(--ocean, #404BBF);
 
 }
 .address{
