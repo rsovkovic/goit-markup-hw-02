@@ -30,7 +30,7 @@ border-radius: 4px;
         letter-spacing: 0.64px;
         cursor: pointer;
 }
-.mainpage-button:hover .page1-button:focus{
+.mainpage-button:hover .mainpage-button:focus{
     border-radius: 4px;
         background: var(--ocean, #404BBF);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
