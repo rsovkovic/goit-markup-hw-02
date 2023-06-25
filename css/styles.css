@@ -30,7 +30,7 @@ border-radius: 4px;
         letter-spacing: 0.64px;
         cursor: pointer;
 }
-.mainpage-button:hover .mainpage-button:focus{
+.mainpage-button:hover,.mainpage-button:focus{
     border-radius: 4px;
         background: var(--ocean, #404BBF);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -134,7 +134,7 @@ color: var(--navyblue, #2E2F42);
     color: #4D5AE5;
 
 }
-.Web{
+.logo .link{
 color: var(--iris, #4D5AE5);
     font-size: 18px;
     font-family: Raleway;
@@ -144,7 +144,7 @@ color: var(--iris, #4D5AE5);
     text-transform: uppercase;
     text-decoration: none;
 }
-.Studio{
+.logo-text{
     color: var(--navyblue, #2E2F42);
         font-size: 18px;
         font-family: Raleway;
