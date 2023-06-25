@@ -119,7 +119,7 @@ color: var(--navyblue, #2E2F42);
 
 }
 .navigation-list:hover,.navigation-list:focus{
-    color: #404bbf;
+    color: var(--ocean, #404BBF);
 }
 
 .address .link-address{
