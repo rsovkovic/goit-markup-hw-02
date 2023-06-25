@@ -109,7 +109,7 @@ color: var(--white, #FFF);
     text-decoration: none;
     list-style: none;
 }
-.page-nav .link{
+.list .link{
 color: var(--navyblue, #2E2F42);
     font-size: 16px;
     font-family: Roboto;
@@ -118,7 +118,7 @@ color: var(--navyblue, #2E2F42);
     letter-spacing: 0.32px;
 
 }
-.page-nav .link:hover,.page-nav .link:focus{
+.list .link:hover,.list .link:focus{
     color: #4D5AE5;
 }
 
@@ -128,6 +128,7 @@ color: var(--navyblue, #2E2F42);
         font-family: Roboto;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        font-style: normal;
 }
 
 .address .link-address:hover,.address .link-address:focus {
@@ -137,9 +138,9 @@ color: var(--navyblue, #2E2F42);
 .logo .link{
 color: var(--iris, #4D5AE5);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -147,35 +148,16 @@ color: var(--iris, #4D5AE5);
 .logo-text{
     color: var(--navyblue, #2E2F42);
         font-size: 18px;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
         font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
 
         }
+        .section-four .list{
+            background-color: #FFFFFF;
+        }
        
-   .footer .Web {
-       color: var(--iris, #4D5AE5);
-       font-size: 18px;
-       font-family: Raleway;
-       font-weight: 800;
-       line-height: 1.16;
-       letter-spacing: 0.54px;
-       text-transform: uppercase;
-        background: var(--navyblue, #2E2F42);
-   }
-
-   .footer .Studio {
-       color: var(--cloud, #F4F4FD);
-       font-size: 18px;
-       font-family: Raleway;
-       font-weight: 800;
-       line-height: 1.16;
-       letter-spacing: 0.54px;
-       text-transform: uppercase;
-        background: var(--navyblue, #2E2F42);
-
-   }
    
