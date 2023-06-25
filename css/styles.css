@@ -118,7 +118,7 @@ color: var(--navyblue, #2E2F42);
     letter-spacing: 0.02em;
 
 }
-.list .navigation-list:hover,.list .navigation-list:focus{
+.navigation-list:hover,.navigation-list:focus{
     color: #404bbf;
 }
 
