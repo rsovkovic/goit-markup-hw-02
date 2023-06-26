@@ -19,7 +19,7 @@
         font-family: Roboto;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 1.12em;
+        letter-spacing: 0.02em;
         background: var(--navyblue, #2E2F42);
 }
 .mainpage-button{
