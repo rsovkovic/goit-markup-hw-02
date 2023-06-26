@@ -1,3 +1,7 @@
+:root{
+
+}
+
 .body {
     font-family: Roboto,sans-serif;
     font-size: 16px;
@@ -15,7 +19,7 @@
         font-family: Roboto;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 1.12px;
+        letter-spacing: 1.12em;
         background: var(--navyblue, #2E2F42);
 }
 .mainpage-button{
@@ -49,7 +53,7 @@ border-radius: 4px;
 .section-one{
    background-color: #2e2f42;
 }
-.section-four{
+.section-four-item{
     background-color: #F4F4FD;
 }
 .section-four .list{
@@ -159,16 +163,11 @@ color: var(--iris, #4D5AE5);
         text-decoration: none;
 
         }
-        .section-four .list{
-            background-color: #FFFFFF;
-        }
         .footer{
             background-color: #2e2f42;
         }
        .footer .logo-text{
         color: #f4f4fd
        }
-      .section-fourli{
-        background-color: #FFFFFF;
-       }
+     
    
