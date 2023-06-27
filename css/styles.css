@@ -15,7 +15,7 @@
     color: var(--first-text-color);
     line-height: 1.5;
     color: #434455;
-
+    text-decoration: none;
 }
 .list {
     list-style: none;
@@ -36,25 +36,13 @@
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-.link {
-    color: #007bff;
-    text-decoration: none;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    order: 0;
-    flex-grow: 1;
-    border-bottom: 1px solid #ccc;
+.selector {
+    property: value;
+    property: value;
+    position: initial;
+    width: initial;
+    height: initial;
+    border-bottom: initial;
 }
 /*----------------------------Header---------------------*/
 .navigation-list {
