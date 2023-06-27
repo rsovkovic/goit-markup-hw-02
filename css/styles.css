@@ -10,7 +10,7 @@
 .body {
     font-family: Roboto,sans-serif;
     font-size: 16px;
-    background-color:var(--primary-second-color);
+    background-color:var(#FFFFFF);
     font-weight: 400,500,700,900;
     color: var(--first-text-color);
     line-height: 1.5;
@@ -84,7 +84,7 @@
 }
 
 .logo-text {
-    color: var(--span-logo-colo);
+    color: var(--span-logo-color);
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
