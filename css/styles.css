@@ -16,7 +16,14 @@
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
-}
+    property: value;
+        property: value;
+        position: initial;
+        width: initial;
+        height: initial;
+        border-bottom: initial;
+    }
+
 .list {
     list-style: none;
 }
@@ -36,14 +43,7 @@
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-.selector {
-    property: value;
-    property: value;
-    position: initial;
-    width: initial;
-    height: initial;
-    border-bottom: initial;
-}
+
 /*----------------------------Header---------------------*/
 .navigation-list {
     color: var(--first-text-color);
