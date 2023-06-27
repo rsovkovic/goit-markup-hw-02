@@ -36,7 +36,7 @@
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-link {
+.link {
     color: #007bff;
     text-decoration: none;
     position: relative;
