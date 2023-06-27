@@ -16,12 +16,12 @@
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
-    property: value;
-        property: value;
-        position: initial;
-        width: initial;
-        height: initial;
-        border-bottom: initial;
+    property: unset;
+        property: unset;
+        position: unset;
+        width: unset;
+        height: unset;
+        border-bottom: unset;
     }
 
 .list {
