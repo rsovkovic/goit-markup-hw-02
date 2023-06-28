@@ -5,13 +5,13 @@
 --primary-white-color: #FFFFFF;
 --primary-accent-color: #2E2F42;
 --second-accent-color: #404BBF;
+--primary-iris-color: #4D5AE5;
 }
 
 .body {
     font-family: Roboto,sans-serif;
     font-size: 16px;
     background-color:var(--primary-white-color);
-    font-weight: 400,500,700,900;
     color: var(--first-text-color);
     line-height: 1.5;
     color: #434455;
@@ -32,7 +32,6 @@
 .navigation-list {
     color: var(--first-text-color);
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -47,9 +46,8 @@
 .link-address {
     color: var(--slate, #434455);
     font-size: 16px;
-    font-family: Roboto;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -87,10 +85,9 @@
 }
 /*---------------------------------Section-one-mainpage--------------*/
 .title-mainpage{
-    color: var(--white, #FFF);
+    color: var(--primary-white-color);
         text-align: center;
         font-size: 56px;
-        font-family: Roboto;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -98,21 +95,21 @@
 }
 .mainpage-button{
 
-    background: var(--iris, #4D5AE5);
+    background: var(--primary-iris-color);
     
-    color: var(--white, #FFF);
+    color: var(--primary-white-color);
         font-size: 16px;
         font-family: Roboto,sans-serif;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.64px;
+        letter-spacing: 0.04em;
         cursor: pointer;
 }
 .mainpage-button:hover,.mainpage-button:focus{
     
         background: var(--second-accent-color);
        
-        color: var(--white, #FFF);
+        color: var(--primary-white-color);
 }
 
 /*------------------------------All-text-page--------------*/
@@ -120,7 +117,6 @@
     color: var(--first-text-color);
         text-align: center;
         font-size: 36px;
-        font-family: Roboto;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -129,7 +125,6 @@
 .text-title {
     color: var(--first-text-color);
     font-size: 20px;
-    font-family: Roboto;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -139,7 +134,6 @@
 .text-page {
     color: var(--slate, #434455);
     font-size: 16px;
-    font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -147,7 +141,7 @@
 }
 /*-----------All-section-mainpage--------*/
 .section-one{
-   background-color: #2e2f42;
+   background-color: var(-primary-accent-color);
 }
 .section-four-item{
 background-color: var(--primary-white-color);
@@ -158,13 +152,13 @@ background-color: var(--primary-white-color);
 /*----------------------------Section-Portfolio-page-------------*/
 
 .portfolio-button{
-    color: var(--iris, #4D5AE5);
+    color: var(--primary-iris-color);
         text-align: center;
         font-size: 16px;
         font-family: Roboto,sans-serif;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.64px;
+        letter-spacing: 0.04em;
 
             
             background: var(--cloud, #F4F4FD);
@@ -172,7 +166,7 @@ background-color: var(--primary-white-color);
             cursor: pointer;
 }
 .portfolio-button:hover,.portfolio-button:focus{
-color: var(--white, #FFF);
+color: var(--primary-white-color);
     text-align: center;
         background: var(--second-accent-color);
 }
@@ -181,9 +175,8 @@ color: var(--white, #FFF);
 .text-footer {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
-    font-family: Roboto;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     background: var(--primary-accent-color);
 }
     .footer {
